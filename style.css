@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	background: url('./images/7.jpg') no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: 50%, 50%;
+	overflow-y: hidden;
+}
+header nav{
+	width: 100%;
+	background-color: rgba(225,225,225, 0.3);
+}
+header nav ul{
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+header nav ul li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	color: white;
+	font-family: poppins;
+}
+header nav span{
+	font-family: 'Great Vibes';
+	font-size: 60px;
+	color: white;
+	margin-right: 250px;
+	margin-left: 100px;
+}
+header div{
+	/*background: white;*/
+	height: 100%;
+	text-align: center;
+	margin-top: 200px;
+	/*opacity: 0.5;*/
+	font-family: 'poppins';
+	color:white;
+}
+
+header div h3{
+	text-transform: uppercase;
+	font-size:30px;
+}
+header div h1{
+	font-size: 120px;
+	font-weight: bolder;
+	letter-spacing: 20px;
+}
+
